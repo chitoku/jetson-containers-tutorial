@@ -25,7 +25,7 @@ Helper scripts provide easy commands like `jetson-containers build` and `jetson-
 
 **Source Repository:** [https://github.com/dusty-nv/jetson-containers/tree/master](https://github.com/dusty-nv/jetson-containers/tree/master)
 
-<div class="mermaid">
+```mermaid
 flowchart TD
     A0["Package Definition"]
     A1["Package Configuration"]
@@ -35,17 +35,17 @@ flowchart TD
     A5["Documentation Generator"]
     A6["CI/CD Workflow Generation"]
 
-    A1 -->|"Defines metadata for"| A0
-    A2 -->|"Builds from"| A0
-    A2 -->|"Reads configuration from"| A1
-    A2 -->|"Checks compatibility via"| A3
-    A4 -->|"Invokes build using"| A2
-    A4 -->|"Uses for autotagging"| A3
-    A5 -->|"Generates docs for"| A0
-    A5 -->|"Reads config for docs"| A1
-    A6 -->|"Generates workflows for"| A0
-    A6 -->|"Reads dependencies from"| A1
-</div>
+    A1 -- "Defines metadata for" --> A0
+    A2 -- "Builds from" --> A0
+    A2 -- "Reads configuration from" --> A1
+    A2 -- "Checks compatibility via" --> A3
+    A4 -- "Invokes build using" --> A2
+    A4 -- "Uses for autotagging" --> A3
+    A5 -- "Generates docs for" --> A0
+    A5 -- "Reads config for docs" --> A1
+    A6 -- "Generates workflows for" --> A0
+    A6 -- "Reads dependencies from" --> A1
+```
 
 ## Chapters
 
