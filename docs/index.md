@@ -23,10 +23,9 @@ It simplifies installing complex AI/ML software like PyTorch, TensorFlow, and RO
 The system automatically handles dependencies and ensures **compatibility** with your specific Jetson *L4T version* (JetPack).
 Helper scripts provide easy commands like `jetson-containers build` and `jetson-containers run` to manage the container lifecycle.
 
-
 **Source Repository:** [https://github.com/dusty-nv/jetson-containers/tree/master](https://github.com/dusty-nv/jetson-containers/tree/master)
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     A0["Package Definition"]
     A1["Package Configuration"]
@@ -46,7 +45,7 @@ flowchart TD
     A5 -->|"Reads config for docs"| A1
     A6 -->|"Generates workflows for"| A0
     A6 -->|"Reads dependencies from"| A1
-```
+</div>
 
 ## Chapters
 

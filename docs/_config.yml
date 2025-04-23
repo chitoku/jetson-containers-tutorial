@@ -27,8 +27,25 @@ footer_content: "Copyright &copy; 2024 NVIDIA. Distributed under the MIT License
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
 
-# Google Analytics Tracking (optional)
-# google_analytics_ua: UA-XXXXXXXXX-X
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
+  enable_coderay: false
+
+# Mermaid configuration
+mermaid:
+  version: "9.4.3"
+  theme: "default"
+  config:
+    startOnLoad: true
+    theme: "default"
+    flowchart:
+      useMaxWidth: true
+      htmlLabels: true
+      curve: "basis"
 
 # Exclude from processing
 exclude:
