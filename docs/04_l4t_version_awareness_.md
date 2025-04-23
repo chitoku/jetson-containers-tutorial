@@ -1,4 +1,10 @@
-# Chapter 4: L4T Version Awareness
+---
+layout: default
+title: "Chapter 4: L4T Version Awareness"
+nav_order: 04
+---
+
+
 
 In [Chapter 3: Package Configuration](03_package_configuration_.md), we saw how `config.py` can be used to dynamically change how a package is built, for example, by setting build arguments based on the system environment. We used the `protobuf_cpp` package as an example, where different versions are installed based on the JetPack/L4T version.
 

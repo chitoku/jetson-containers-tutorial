@@ -1,4 +1,10 @@
-# Chapter 6: Documentation Generator
+---
+layout: default
+title: "Chapter 6: Documentation Generator"
+nav_order: 06
+---
+
+
 
 In the previous chapter, [Chapter 5: Container Build System](05_container_build_system_.md), we explored the engine that takes our package definitions and assembles the final container images. We saw how it handles dependencies and builds everything in the right order.
 

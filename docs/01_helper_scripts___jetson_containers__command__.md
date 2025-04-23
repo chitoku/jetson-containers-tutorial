@@ -1,4 +1,10 @@
-# Chapter 1: Helper Scripts (`jetson-containers` command)
+---
+layout: default
+title: "Chapter 1: Helper Scripts (`jetson-containers` command)"
+nav_order: 01
+---
+
+
 
 Welcome to the `jetson-containers` project! If you're new to working with containers (like Docker) on NVIDIA Jetson devices, you're in the right place. This project makes it much easier to get powerful AI and robotics software running.
 

@@ -1,4 +1,10 @@
-# Chapter 5: Container Build System
+---
+layout: default
+title: "Chapter 5: Container Build System"
+nav_order: 05
+---
+
+
 
 In the previous chapter, [Chapter 4: L4T Version Awareness](04_l4t_version_awareness_.md), we saw how `jetson-containers` ensures that packages are compatible with your Jetson's specific software version (L4T). It checks requirements and even allows packages to adjust their build steps using `config.py`.
 

@@ -1,4 +1,10 @@
-# Chapter 7: CI/CD Workflow Generation
+---
+layout: default
+title: "Chapter 7: CI/CD Workflow Generation"
+nav_order: 07
+---
+
+
 
 In [Chapter 6: Documentation Generator](06_documentation_generator_.md), we saw how the project automatically creates helpful README files by pulling information directly from the package definitions and other sources. This keeps the documentation accurate and up-to-date.
 

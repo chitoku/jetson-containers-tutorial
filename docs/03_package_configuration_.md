@@ -1,4 +1,10 @@
-# Chapter 3: Package Configuration
+---
+layout: default
+title: "Chapter 3: Package Configuration"
+nav_order: 03
+---
+
+
 
 In [Chapter 2: Package Definition](02_package_definition_.md), we learned that packages are like LEGO bricks, each with a `Dockerfile` (recipe) and metadata (information like name and dependencies). This allows us to easily combine packages like `pytorch` and `transformers`.
 

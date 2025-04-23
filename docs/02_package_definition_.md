@@ -1,4 +1,10 @@
-# Chapter 2: Package Definition
+---
+layout: default
+title: "Chapter 2: Package Definition"
+nav_order: 02
+---
+
+
 
 In [Chapter 1: Helper Scripts (`jetson-containers` command)](01_helper_scripts___jetson_containers__command__.md), we saw how the `jetson-containers` command simplifies running and building containers. We used commands like:
 
