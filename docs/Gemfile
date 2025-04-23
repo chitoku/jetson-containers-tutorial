@@ -9,5 +9,5 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.8"
   gem "github-pages", "~> 228"
   gem "just-the-docs"
-  gem "jekyll-mermaid"
+  gem "jekyll-mermaid", "~> 0.1.0"
 end
