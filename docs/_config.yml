@@ -5,10 +5,11 @@ url: "https://chitoku.github.io"
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-mermaid
 
 # Exclude from processing
 exclude:
@@ -25,3 +26,36 @@ collections:
   tutorials:
     output: true
     permalink: /:collection/:name
+
+# Just the Docs settings
+just_the_docs:
+  # Main navigation
+  nav_external_links:
+    - title: GitHub Repository
+      url: https://github.com/dusty-nv/jetson-containers
+
+  # Aux links for the upper right navigation
+  aux_links:
+    "View on GitHub":
+      - "//github.com/chitoku/jetson-containers-tutorial"
+
+  # Color scheme
+  color_scheme: light
+
+  # Search
+  search: true
+  search_tokenizer_separator: /[\s\-/]+/
+
+  # Mermaid
+  mermaid:
+    version: "9.4.3"
+    theme: "default"
+    config:
+      startOnLoad: true
+      themeVariables:
+        primaryColor: "#ff0000"
+        primaryTextColor: "#fff"
+        primaryBorderColor: "#7C0000"
+        lineColor: "#F8B229"
+        secondaryColor: "#006100"
+        tertiaryColor: "#fff"
